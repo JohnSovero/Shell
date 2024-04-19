@@ -1,0 +1,53 @@
+#python
+.env
+env/
+# vscode
+.vscode
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# files
+.clangd
+setup.sh
+.vscode
+test
+libs
+
+# antlr
+.antlr
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+build
+.cache
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+*.ll
+
+# Executables
+*.exe
+*.out
+*.app
